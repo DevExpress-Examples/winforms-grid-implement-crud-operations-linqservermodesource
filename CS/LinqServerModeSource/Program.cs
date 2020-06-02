@@ -27,10 +27,6 @@ namespace LinqServerModeSource
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            DevExpress.Skins.SkinManager.EnableFormSkins();
-            DevExpress.UserSkins.BonusSkins.Register();
-            UserLookAndFeel.Default.SetSkinStyle("Foggy");
-
             Application.Run(new Form1());
         }
     }
