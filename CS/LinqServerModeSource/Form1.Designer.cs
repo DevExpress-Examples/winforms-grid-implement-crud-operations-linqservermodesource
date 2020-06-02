@@ -9,6 +9,8 @@
 // You can find sample updates and versions for different programming languages here:
 // http://www.devexpress.com/example=E4498
 
+using DevExpress.XtraEditors;
+
 namespace LinqServerModeSource
 {
     partial class Form1
@@ -42,9 +44,9 @@ namespace LinqServerModeSource
             this.gridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.linqServerModeSource1 = new DevExpress.Data.Linq.LinqServerModeSource();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.button1 = new DevExpress.XtraEditors.SimpleButton();
+            this.button2 = new DevExpress.XtraEditors.SimpleButton();
+            this.button3 = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.linqServerModeSource1)).BeginInit();
@@ -52,11 +54,11 @@ namespace LinqServerModeSource
             // 
             // gridControl
             // 
-            this.gridControl.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gridControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridControl.Location = new System.Drawing.Point(0, 0);
             this.gridControl.MainView = this.gridView1;
             this.gridControl.Name = "gridControl";
-            this.gridControl.Size = new System.Drawing.Size(778, 519);
+            this.gridControl.Size = new System.Drawing.Size(778, 504);
             this.gridControl.TabIndex = 0;
             this.gridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -69,32 +71,32 @@ namespace LinqServerModeSource
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(196, 538);
+            this.button1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.button1.Location = new System.Drawing.Point(0, 550);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(778, 23);
             this.button1.TabIndex = 1;
             this.button1.Text = "Add";
-            this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(324, 538);
+            this.button2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.button2.Location = new System.Drawing.Point(0, 527);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(778, 23);
             this.button2.TabIndex = 2;
             this.button2.Text = "Edit";
-            this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(452, 538);
+            this.button3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.button3.Location = new System.Drawing.Point(0, 504);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(778, 23);
             this.button3.TabIndex = 3;
             this.button3.Text = "Delete";
-            this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form1
@@ -102,12 +104,10 @@ namespace LinqServerModeSource
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(778, 573);
+            this.Controls.Add(this.gridControl);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.gridControl);
-            this.LookAndFeel.SkinName = "Foggy";
-            this.LookAndFeel.UseDefaultLookAndFeel = false;
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.gridControl)).EndInit();
@@ -122,9 +122,9 @@ namespace LinqServerModeSource
         private DevExpress.XtraGrid.GridControl gridControl;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.Data.Linq.LinqServerModeSource linqServerModeSource1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private SimpleButton button1;
+        private SimpleButton button2;
+        private SimpleButton button3;
 
     }
 }
