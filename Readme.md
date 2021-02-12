@@ -11,6 +11,12 @@
 
 <p>This example demonstrates how to implement create, update and delete operations using XtraGrid and LinqServeModeSource.</p><p>This example works with the standard SQL Northwind database.</p>
 
+<b>See also:</b>
+
+[DevExpress WinForms Cheat Sheet - Supported Data Access Technologies and Data Sources](https://go.devexpress.com/CheatSheets_WinForms_Examples_T904237.aspx)
+
+[DevExpress WinForms Troubleshooting - Grid Control](https://go.devexpress.com/CheatSheets_WinForms_Examples_T934742.aspx)
+
 <br/>
 
 
