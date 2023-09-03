@@ -3,25 +3,20 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E4498)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+
+# WinForms Data Grid - Implement CRUD operations (LinqServerModeSource)
+
+In this example the WinFormd Data Grid control is bound to a [LinqServeModeSource](https://docs.devexpress.com/CoreLibraries/DevExpress.Data.Linq.LinqServerModeSource) to display data from the standard SQL Northwind database. The example demonstrates how to create a custom edit form to allow users to create, update, and delete data rows/records.
+
+
+## Files to Review
 
 * [EditForm.cs](./CS/LinqServerModeSource/EditForm.cs) (VB: [EditForm.vb](./VB/LinqServerModeSource/EditForm.vb))
 * [Form1.cs](./CS/LinqServerModeSource/Form1.cs) (VB: [Form1.vb](./VB/LinqServerModeSource/Form1.vb))
 * [Person.cs](./CS/LinqServerModeSource/Person.cs) (VB: [Person.vb](./VB/LinqServerModeSource/Person.vb))
-* [Program.cs](./CS/LinqServerModeSource/Program.cs) (VB: [Program.vb](./VB/LinqServerModeSource/Program.vb))
-<!-- default file list end -->
-# How to implement CRUD operations using XtraGrid and LinqServerModeSource
 
 
-<p>This example demonstrates how to implement create, update and delete operations using XtraGrid and LinqServeModeSource.</p><p>This example works with the standard SQL Northwind database.</p>
+## See Also
 
-<b>See also:</b>
-
-[DevExpress WinForms Cheat Sheet - Supported Data Access Technologies and Data Sources](https://go.devexpress.com/CheatSheets_WinForms_Examples_T904237.aspx)
-
-[DevExpress WinForms Troubleshooting - Grid Control](https://go.devexpress.com/CheatSheets_WinForms_Examples_T934742.aspx)
-
-<br/>
-
-
+* [DevExpress WinForms Cheat Sheet - Supported Data Access Technologies and Data Sources](https://go.devexpress.com/CheatSheets_WinForms_Examples_T904237.aspx)
+* [DevExpress WinForms Troubleshooting - Grid Control](https://go.devexpress.com/CheatSheets_WinForms_Examples_T934742.aspx)
