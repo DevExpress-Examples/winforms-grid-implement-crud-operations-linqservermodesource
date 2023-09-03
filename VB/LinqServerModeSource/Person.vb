@@ -1,4 +1,4 @@
-﻿' Developer Express Code Central Example:
+' Developer Express Code Central Example:
 ' How to implement CRUD operations using XtraGrid and LinqServeModeSource
 ' 
 ' This example demonstrates how to implement create, update and delete operations
@@ -8,47 +8,55 @@
 ' 
 ' You can find sample updates and versions for different programming languages here:
 ' http://www.devexpress.com/example=E4498
-
-Imports Microsoft.VisualBasic
-Imports System
-
 Namespace LinqServerModeSource
-	Friend Class Person
-		Private firstName_Renamed As String
-		Private secondName_Renamed As String
-		Private comments_Renamed As String
-		Public Sub New(ByVal firstName As String, ByVal secondName As String)
-			Me.firstName_Renamed = firstName
-			Me.secondName_Renamed = secondName
-			comments_Renamed = String.Empty
-		End Sub
-		Public Sub New(ByVal firstName As String, ByVal secondName As String, ByVal comments As String)
-			Me.New(firstName, secondName)
-			Me.comments_Renamed = comments
-		End Sub
-		Public Property FirstName() As String
-			Get
-				Return firstName_Renamed
-			End Get
-			Set(ByVal value As String)
-				firstName_Renamed = value
-			End Set
-		End Property
-		Public Property SecondName() As String
-			Get
-				Return secondName_Renamed
-			End Get
-			Set(ByVal value As String)
-				secondName_Renamed = value
-			End Set
-		End Property
-		Public Property Comments() As String
-			Get
-				Return comments_Renamed
-			End Get
-			Set(ByVal value As String)
-				comments_Renamed = value
-			End Set
-		End Property
-	End Class
+
+    Friend Class Person
+
+        Private firstNameField As String
+
+        Private secondNameField As String
+
+        Private commentsField As String
+
+        Public Sub New(ByVal firstName As String, ByVal secondName As String)
+            firstNameField = firstName
+            secondNameField = secondName
+            commentsField = String.Empty
+        End Sub
+
+        Public Sub New(ByVal firstName As String, ByVal secondName As String, ByVal comments As String)
+            Me.New(firstName, secondName)
+            commentsField = comments
+        End Sub
+
+        Public Property FirstName As String
+            Get
+                Return firstNameField
+            End Get
+
+            Set(ByVal value As String)
+                firstNameField = value
+            End Set
+        End Property
+
+        Public Property SecondName As String
+            Get
+                Return secondNameField
+            End Get
+
+            Set(ByVal value As String)
+                secondNameField = value
+            End Set
+        End Property
+
+        Public Property Comments As String
+            Get
+                Return commentsField
+            End Get
+
+            Set(ByVal value As String)
+                commentsField = value
+            End Set
+        End Property
+    End Class
 End Namespace
