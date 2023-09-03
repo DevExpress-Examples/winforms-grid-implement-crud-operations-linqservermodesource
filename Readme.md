@@ -16,6 +16,11 @@ In this example the WinFormd Data Grid control is bound to a [LinqServeModeSourc
 * [Person.cs](./CS/LinqServerModeSource/Person.cs) (VB: [Person.vb](./VB/LinqServerModeSource/Person.vb))
 
 
+## Documentation
+
+* [Edit Data. Create Cell Editors. Validate User Input](https://docs.devexpress.com/WindowsForms/753/controls-and-libraries/data-grid/data-editing-and-validation/modify-and-validate-cell-values)
+* [Data Binding Overview - WinForms Data Grid](https://docs.devexpress.com/WindowsForms/634/controls-and-libraries/data-grid/data-binding)
+
 ## See Also
 
 * [DevExpress WinForms Cheat Sheet - Supported Data Access Technologies and Data Sources](https://go.devexpress.com/CheatSheets_WinForms_Examples_T904237.aspx)
