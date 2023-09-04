@@ -23,5 +23,6 @@ In this example the WinFormd Data Grid control is bound to a [LinqServeModeSourc
 
 ## See Also
 
+* [WinForms Data Grid - Implement CRUD operations (XPInstantFeedbackSource)](https://github.com/DevExpress-Examples/winforms-grid-implement-crud-operations-xpinstantfeedbacksource)
 * [DevExpress WinForms Cheat Sheet - Supported Data Access Technologies and Data Sources](https://go.devexpress.com/CheatSheets_WinForms_Examples_T904237.aspx)
 * [DevExpress WinForms Troubleshooting - Grid Control](https://go.devexpress.com/CheatSheets_WinForms_Examples_T934742.aspx)
